@@ -45,6 +45,7 @@ class FileHandlerService{
 }
 
 @RestController
+@CrossOrigin
 @RequestMapping("/questions")
 public class QuestionController {
     private final QuestionRepository questionRepository;
